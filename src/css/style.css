@@ -13,20 +13,25 @@ body{
 }
 
 /* Layout Modal */
-#fechar-skills{
-    border-bottom: #120a8f solid 1px;
-    justify-content:end;
-    align-items: center;
-    display: flex;
-    width: 100%;
-    
+.btn-abrir{
+  background: #120a8f;
+  color: #ffffff;
 }
-#btn-fechar{
+
+.btn-fechar{
     justify-self: center;
     align-items: center;
     display:inline-flex;
     width: 22px;
     height: 22px;
+}
+#fechar-skills{
+  border-bottom: #120a8f solid 1px;
+  justify-content:end;
+  align-items: center;
+  display: flex;
+  width: 100%;
+  
 }
 .skills{
     position: fixed;
@@ -98,7 +103,7 @@ nav {
     top: 10vh;
     right: 0;
     width: 100%;
-    height: 110vh;
+    height: 90vh;
     background: #ffffffe3;
     flex-direction: column;
     align-items: center;

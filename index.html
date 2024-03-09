@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <link rel="stylesheet" href="src/css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-    <title>Olá Mundooo!!</title>
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="shortcut icon" type="imagex/png" href="https://avatars.githubusercontent.com/u/73316270?v=4">
+
+    <title>Olá Mundo!!</title>
 </head>
 <body>
         <header>
@@ -15,7 +16,7 @@
                 <a href="https://github.com/sotnaSelA"><img src="https://avatars.githubusercontent.com/u/73316270?v=4" alt="sotnaSelA" width="50"></a>
             </div>
             
-            <div><button id="show">Minhas Skills</button></div>
+            <div class="btn_skills"><button id="show" class="btn-abrir">Minhas Skills</button></div>
             
             <div class="mobile-menu">
                 <div class="line1"></div>
@@ -24,10 +25,10 @@
             </div>
 
                 <ul class="nav-list">
-                    <li><a href="#espeto">Sobre Mim</a></li>
-                    <li><a href="#churrasco">Perfil Acadêmico</a></li>
-                    <li><a href="#bebidas">habilidade</a></li>
-                    <li><a href="#paes">Profissionalismo</a></li>
+                    <li><a href="#sobremim">Sobre Mim</a></li>
+                    <li><a href="#perfilacademico">Perfil Acadêmico</a></li>
+                    <li><a href="#habilidade">habilidade</a></li>
+                    <li><a href="#profissionalismo">Profissionalismo</a></li>
                 </ul>
             </nav>
         </header> 
@@ -37,7 +38,7 @@
         <div class="skills">
             <section class="tes">
             <div id="fechar-skills">
-                <button class="hide" id="btn-fechar"><i class="bi bi-x-lg"></i></button>
+                <button id="hide" class="btn-fechar"><i class="bi bi-x-lg"></i></button>
             </div>
 
             <div class="texto-skills">
@@ -53,34 +54,38 @@
                     <br>
                     <a href="https://codepen.io/sotnaSelA/pen/vYQRggX">CalcuAletor</a>
                     <br>
-                    <a href="https://codepen.io/sotnaSelA/pen/ZEmxLLV">Spotify  MainPage</a>
+                    <a href="https://codepen.io/sotnaSelA/pen/ZEmxLLV">Spotify MainPage</a>
                 </div>
                 <img id="prod-img" width="270" src="https://media.tenor.com/DimzPZMypFcAAAAM/laptop.gif">
             </div>
         </div>
 
             <div class="btn-sobe">
-                <a href="#principal">
+                <a href="#inicio">
                     <button id="up"><i class="bi bi-arrow-up-circle-fill"></i></button>
                 </a> 
             </div>
 
-    <aside class="home ">
+    <aside class="home" id="inicio">
         <div class="conteudo-home">
             <h3 class="subtitulo">OLÁ MUNDO!!!</h3>
             <h1 class="titulo"> Eu sou <span>Ale Santos</span></h1>
-            <h4 class="subtitulo">Desenvolvedor de Software/ Designer/ Infra e de quebra formato algumas maquinas
+            <h4 class="subtitulo"> Artista/ Designer/ Programador/ Dev-Front/ Designer/ Infra/ Analista de dados. 
+                analista
                 <br>
             alessandro.santos.es@gmail.com
                 <br>
             Vitória - ES
                 <br>
-            ° S.I. 2/8👨🏽‍🎓
+            ° S.I. 4/8👨🏽‍🎓
                 <br>
-            • Téc em redes🌐
+            • TCP 🧑🏽‍💼
                 <br>
-            • Téc em info👨‍💻</h4>
-            <a href="#sobre">   
+            • Téc em info👨‍💻
+                <br>
+            • Téc em redes🌐</h4>
+
+            <a href="#sobremim">   
                 <button class="btn-home" id="btn-mais">Sobre Mim</button>
             </a>
         </div>
@@ -88,24 +93,24 @@
     
             
 
-<aside class="area-conteudo">
+<aside class="area-conteudo" id="sobremim">
     <div class="conteudo">
         <img id="prod-img" width="280" style="border-radius: 100%;" src="https://scontent.xx.fbcdn.net/v/t1.15752-9/429501320_765864891793739_3829135591146938440_n.jpg?stp=dst-jpg_s403x403&_nc_cat=111&ccb=1-7&_nc_sid=510075&_nc_ohc=lag6LLRGZr8AX86umMy&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdSn4sL3HBB08wvShb5iTtKyCHLiWNzaMM4nJ8DT2ROqjw&oe=660AFA16">
     </div>
-    <div class="conteudo">
+    <div class="conteudo" >
         <h1 class="titulo">Sobre Mim</h1>
         <h4 class="subtitulo">PRAZER!! <br>
-        Eu me chamo Alessandro Santos, no momento tenho 22 Anos,
+        Eu me chamo Alessandro Santos, no momento tenho 23 Anos,
         sou um Aprendiz de Desenvolvimento de Software
         vulgo Garoto de Programa kkk.</h4>
     </div>
 </aside>
 
-<aside class="area-conteudo">
+<aside class="area-conteudo" id="perfilacademico">
     <div class="conteudo">
         <h1 class="titulo">Meu pefil academico</h1>
         <h4 class="subtitulo">Tenho 3 dipolmas de Treinamento de Capacitação Profissional, 
-                            sou formado em Técnico em Redes,Técnico em Informatica e estou 
+                            sou formado comp Técnico em Redes, Técnico em Informática e estou 
                             me graduando no 4º Periodo em sistemas de Informações.</h4>
     </div>
     <div class="conteudo">
@@ -113,7 +118,7 @@
     </div>
 </aside>
 
-<aside class="area-conteudo area-conteudo-grid">
+<aside class="area-conteudo area-conteudo-grid" id="habilidade">
     <div class="conteudo-grid">
         <h1 class="titulo">Habilidades</h1>
         <h4 class="subtitulo">Eu costumava ser artista. 
@@ -132,14 +137,13 @@
         <img id="prod-img" width="80" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/768px-JavaScript-logo.png" alt="JS">
         <img id="prod-img" width="80" src="https://static-00.iconduck.com/assets.00/node-js-icon-454x512-nztofx17.png" alt="node">
         <img id="prod-img" width="80" src="https://cdn1.iconfinder.com/data/icons/unicons-line-vol-5/24/react-512.png" alt="react">
-        <img id="prod-img" width="80" src="https://796c21.p3cdn2.secureserver.net/wp-content/uploads/2018/10/SQL-Server-Logo.jpg?time=1707402428" alt="SQL-Server">
-        <img id="prod-img" width="80" src="https://www.sarvap.in/wp-content/uploads/mysql.png" alt="mysql">
-        <img id="prod-img" width="80" src="https://asset.brandfetch.io/idxldSTiIy/idrmKQsA0n.jpeg" alt="mdb">
-        <img id="prod-img" width="80" src="">
+        <img id="prod-img" width="80" src="https://cdn-icons-png.freepik.com/512/5658/5658359.png" alt="SQL-Server">
+        <img id="prod-img" width="80" src="https://cdn.worldvectorlogo.com/logos/azure-active-directory.svg" alt="AD">
+        <img id="prod-img" width="80" src="https://media.trustradius.com/product-logos/dT/3e/JWKABGMWXUZ3.PNG" alt="mysql">
     </div>
 </aside>
 
-<aside class="area-conteudo conteudo-grid">
+<aside class="area-conteudo conteudo-grid" id="profissionalismo">
     <div class="conteudo">
         <h1 class="titulo">Timeline Profissional</h1>
         <h4 class="subtitulo">Desde pequeno sempre trabalhei criando artes Visuais e digitais, 
