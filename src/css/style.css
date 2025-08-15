@@ -14,7 +14,7 @@ body{
 
 /* Layout Modal */
 .btn-abrir{
-  background: #120a8f;
+  background: #976752;
   color: #ffffff;
 }
 
@@ -26,7 +26,7 @@ body{
     height: 22px;
 }
 #fechar-skills{
-  border-bottom: #120a8f solid 1px;
+  border-bottom: #976752 solid 1px;
   justify-content:end;
   align-items: center;
   display: flex;
@@ -36,7 +36,7 @@ body{
 .skills{
     position: fixed;
     background: #000000f3;
-    border: #120a8f solid 1px;
+    border: #976752 solid 1px;
     border-radius: 15px;
     align-items: center;
     justify-content: center;
@@ -90,7 +90,7 @@ nav {
 .mobile-menu div {
   width: 32px;
   height: 2px;
-  background: #120a8f;
+  background: #976752;
   margin: 8px;
   transition: 0.3s;
 }
@@ -104,7 +104,7 @@ nav {
     right: 0;
     width: 100%;
     height: 85vh;
-    background: #ffffffe3;
+    background: #000000e3;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
@@ -146,10 +146,10 @@ nav {
 .logo img{
     border-radius: 50%;    
     width: 50px;
-    border: 1px solid #120a8f;
+    border: 1px solid #976752;
     border-radius: 50%;
     font-size: 25px;
-    color: #120a8f;
+    color: #976752;
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -166,7 +166,7 @@ nav {
       .skills{
         position: fixed;
         background: #000000f3;
-        border: #120a8f solid 1px;
+        border: #976752 solid 1px;
         border-radius: 15px;
         align-items: center;
         justify-content: center;
@@ -188,7 +188,8 @@ nav {
 
 .home {
     background: linear-gradient(rgba(0,0,0,0.5)rgba(0,0,0,0.5));
-    background-image: url(https://i.pinimg.com/originals/df/41/07/df4107edd8b4fe79455810ea6222e087.gif);
+    /* background-image: url(https://i.pinimg.com/originals/df/41/07/df4107edd8b4fe79455810ea6222e087.gif); */
+    background-image: url(https://i.pinimg.com/originals/66/b7/1c/66b71c75101244d6888261e3595c1922.gif);
     background-position: center;
     background-size: cover;
     box-shadow: inset 0px -80px 100px 0px black;
@@ -205,11 +206,14 @@ color: #ffffff;
 }
 
 .btn-home{
-    background-color: #120a8f;
+    background-color: #976752;
     color: #ffffff;
 }.btn-home:hover{
     background-color: #ffffff;
-    color: #120a8f;
+    color: #976752;
+}
+a{
+  color: #ffffff;
 }
 
 .area-conteudo{
@@ -239,7 +243,7 @@ color: #ffffff;
  }
 
 span{
-  color: #120a8f;
+  color: #976752;
 }
 
 #sobre{
@@ -248,7 +252,7 @@ span{
     align-items: center;
 }
 #perfil{
-    background: #120a8f;
+    background: #976752;
     display: flex;
     align-items: center;
 }
@@ -277,15 +281,15 @@ span{
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-    border: #120a8f solid 5px;
-    background: #120a8f;
+    border: #976752 solid 5px;
+    background: #976752;
     font-size:3.5rem;
     color: #ffffff;
     width: 50px;
     height: 50px;
 }
 #up:hover{
-    background: #120a8f;
+    background: #976752;
     width: 47px;
     height: 30px;
 }
@@ -293,10 +297,10 @@ span{
 /* Layout dos botões gerais */
 button{
     width: 150px;
-    color: #120a8f;
+    color: #976752;
     font-size: 12px;
     background: transparent;
-    border: 1px solid #120a8f;
+    border: 1px solid #976752;
     border-radius: 15px;
     padding: 5px;
     margin: 5px;
@@ -304,7 +308,7 @@ button{
 }
 
 button:hover{
-    background: #120a8f;
+    background: #976752;
     color: #ffffff;
     transition: 0.3s;
 }
